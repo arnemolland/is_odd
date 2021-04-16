@@ -1,0 +1,11 @@
+name: is_odd
+description: Minimalist and elegant API that returns true if the given number is odd.
+version: 1.0.0
+homepage: https://github.com/arnemolland/is_odd
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dev_dependencies:
+  pedantic: ^1.11.0
+  test: ^1.16.8
