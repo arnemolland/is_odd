@@ -1,6 +1,6 @@
 name: is_odd
 description: Minimalist and elegant API that returns true if the given number is odd.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/arnemolland/is_odd
 
 environment:
