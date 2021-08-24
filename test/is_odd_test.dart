@@ -1,5 +1,6 @@
 import 'package:is_odd/is_odd.dart';
 import 'package:test/test.dart';
+import 'dart:math' as math;
 
 void main() {
   group('Unit tests', () {
@@ -20,8 +21,8 @@ void main() {
     });
 
     test('isOdd() correct int boundary', () {
-      const maxValue = 2 ^ 53 + 1;
-      final values = List<int>.generate(maxValue, (int index) => index);
+      final maxValue = math.pow(2, 53) - 1;
+      final values = List<int>.generate(maxValue.toInt(), (int index) => index);
 
       for (var val in values) {
         final isOdd = val % 2 != 0;
