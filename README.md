@@ -20,4 +20,4 @@ isOdd(3);
 
 ## Disclaimer
 
-Implementation shamelessly stolen from the JavaScript package [is-odd](https://www.npmjs.com/package/is-odd)
+Implementation shamelessly stolen from the JavaScript package [is-odd](https://www.npmjs.com/package/is-odd).
